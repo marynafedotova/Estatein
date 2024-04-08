@@ -1,0 +1,78 @@
+[
+  {
+    "clients_data": "Since 2019",
+    "clients_title": "ABC Corporation",
+    "clients_btn": "Visit Website",
+    "client_points": [
+      {
+        "point_image": "public/images/client-icon.png",
+        "point_text": "Domain",
+        "subtitle": "Commercial Real Estate",
+        "category": {
+          "icon": "public/images/category-icon.png",
+          "name": "Category",
+          "sub": "Luxury Home Development"
+        },
+        "client-title": "What They Said 🤗",
+        "client_text": "Estatein's expertise in finding the perfect office space for our expanding operations was invaluable. They truly understand our business needs."
+      }
+    ]
+  },
+  {
+    "clients_data": "Since 2018",
+    "clients_title": "GreenTech Enterprises",
+    "clients_btn": "Visit Website",
+    "client_points": [
+      {
+        "point_image": "public/images/client-icon.png",
+        "point_text": "Domain",
+        "subtitle": "Commercial Real Estate",
+        "category": {
+          "icon": "public/images/category-icon.png",
+          "name": "Retail Space",
+          "sub": "Luxury Home Development"
+        },
+        "client-title": "What They Said 🤗",
+        "client_text": "Estatein's ability to identify prime retail locations helped us expand our brand presence. They are a trusted partner in our growth."
+      }
+    ]
+  },
+  {
+    "clients_data": "Since 2020",
+    "clients_title": "Tech Solutions Inc.",
+    "clients_btn": "Visit Website",
+    "client_points": [
+      {
+        "point_image": "public/images/client-icon.png",
+        "point_text": "Technology Services",
+        "subtitle": "Commercial Real Estate",
+        "category": {
+          "icon": "public/images/category-icon.png",
+          "name": "Software Development",
+          "sub": "Luxury Home Development"
+        },
+        "client-title": "What They Said 🤗",
+        "client_text": "Estatein's collaboration on software development projects has been outstanding. They deliver high-quality solutions on time and within budget."
+      }
+    ]
+  },
+  {
+    "clients_data": "Since 2017",
+    "clients_title": "Healthcare Innovations Ltd.",
+    "clients_btn": "Visit Website",
+    "client_points": [
+      {
+        "point_image": "public/images/client-icon.png",
+        "point_text": "Healthcare Solutions",
+        "subtitle": "Commercial Real Estate",
+        "category": {
+          "icon": "public/images/category-icon.png",
+          "name": "Medical Devices",
+          "sub": "Luxury Home Development"
+        },
+        "client-title": "What They Said 🤗",
+        "client_text": "Estatein's expertise in healthcare solutions has revolutionized our approach to patient care. Their dedication to innovation is commendable."
+      }
+    ]
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "valueItems": [
+    {
+      "iconSrc": "public/images/Icon-valuation.png",
+      "iconAlt": "icon valuation",
+      "title": "Valuation Mastery",
+      "description": "Discover the true worth of your property with our expert valuation services."
+    },
+    {
+      "iconSrc": "public/images/Icon-strategik.png",
+      "iconAlt": "icon strategic",
+      "title": "Strategic Marketing",
+      "description": "Selling a property requires more than just a listing; it demands a strategic marketing approach."
+    },
+    {
+      "iconSrc": "public/images/Icon-negotiationpng.png",
+      "iconAlt": "icon negotiation",
+      "title": "Negotiation Wizardry",
+      "description": "Negotiating the best deal is an art, and our negotiation experts are masters of it."
+    },
+    {
+      "iconSrc": "public/images/Icon-closing.png",
+      "iconAlt": "icon closing",
+      "title": "Closing Success",
+      "description": "A successful sale is not complete until the closing. We guide you through the intricate closing process."
+    }
+  ]
+}

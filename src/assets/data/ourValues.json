@@ -1,0 +1,24 @@
+[
+  {
+    "title": "Trust",
+    "icon": "public/images/val-star.png",
+    "description": "Trust is the cornerstone of every successful real estate transaction."
+  },
+  {
+    "title": "Excellence",
+    "icon": "public/images/val-pipl.png",
+    "description": "We set the bar high for ourselves. From the properties we list to the services we provide."
+  },
+  {
+    "title": "Client-Centric",
+    "icon": "public/images/val-diplpng.png",
+    "description": "Your dreams and needs are at the center of our universe. We listen, understand."
+  },
+  {
+    "title": "Our Commitment",
+    "icon": "public/images/val-star.png",
+    "description": "We are dedicated to providing you with the highest level of service, professionalism, and support."
+  }
+]
+
+

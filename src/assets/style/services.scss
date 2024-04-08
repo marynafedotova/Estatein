@@ -1,0 +1,521 @@
+//services-page
+
+#heroServices {
+  padding-top: 250px;
+  background-image: linear-gradient(112deg, #262626 0, #26262600 53%);
+  margin-bottom: 110px;
+
+  h1 {
+    padding-left: 162px;
+    font-size: 3rem;
+    font-family: 'Urbanist Semibold';
+    color: var(--absolute-white);
+    margin-bottom: 14px;
+  }
+
+  .hero-sub {
+    padding-left: 162px;
+    color: var(--grey-60);
+    font-family: 'Urbanist Medium';
+    font-size: 1.125rem;
+    padding-bottom: 100px;
+    width: 80%;
+  }
+}
+
+#propertyValue {
+  .container {
+    margin-bottom: 110px;
+    h2 {
+      font-size: 3rem;
+      font-family: 'Urbanist Semibold';
+      color: var(--absolute-white);
+      margin-bottom: 14px;
+    }
+
+    .subtitle {
+      font-family: 'Urbanist Medium';
+      font-size: 1.125rem;
+      color: var(--grey-60);
+      width: 78%;
+      margin-bottom: 80px;
+    }
+
+    .value-block {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 30px;
+
+      .value-item,
+      .value-pan {
+        width: 32%;
+        padding: 50px;
+        border-radius: 12px;
+        border: 1px solid var(--grey-15);
+
+        .value-top {
+          display: flex;
+          align-content: center;
+          margin-bottom: 30px;
+
+          img {
+            margin-right: 20px;
+          }
+
+          .value-title {
+            font-size: 1.5rem;
+            font-family: 'Urbanist Semibold';
+            color: var(--absolute-white);
+            margin-top: 23px;
+          }
+        }
+
+        .value-bottom {
+          font-family: 'Urbanist Medium';
+          font-size: 1.125rem;
+          color: var(--grey-60);
+        }
+      }
+
+      .value-pan {
+        width: 66%;
+        background-image: url(public/images/bg-value-link.png);
+        .pan-top{
+          margin-bottom: 39px;
+          display: flex;
+          justify-content: space-between;
+          .title{
+            font-size: 1.875rem;
+            font-family: 'Urbanist Bold';
+            color: var(--absolute-white);
+          }
+          .pan-link{
+            padding: 18px 24px;
+            background-color: var(--grey-08);
+            border: 1px solid var(--grey-15);
+            border-radius: 10px;
+            &:hover {
+              border: 1px solid var(--purple-60);
+            }
+            a{
+              color: var(--absolute-white);
+            }
+          }
+        }
+        .pan-bottom{
+          font-family: 'Urbanist Medium';
+          font-size: 1.125rem;
+          color: var(--grey-60);
+        }
+      }
+    }
+  }
+}
+
+#propertyManagement {
+  .container {
+    h2 {
+      font-size: 3rem;
+      font-family: 'Urbanist Semibold';
+      color: var(--absolute-white);
+      margin-bottom: 14px;
+    }
+
+    .subtitle {
+      font-family: 'Urbanist Medium';
+      font-size: 1.125rem;
+      color: var(--grey-60);
+      width: 100%;
+      margin-bottom: 80px;
+    }
+
+    .mangement-block {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 30px;
+      margin-bottom: 110px;
+      .mangement-item,
+      .mangement-pan {
+        width: 32%;
+        padding: 50px;
+        border-radius: 12px;
+        border: 1px solid var(--grey-15);
+
+        .mangement-top {
+          display: flex;
+          align-content: center;
+          margin-bottom: 30px;
+
+          img {
+            margin-right: 20px;
+          }
+
+          .mangement-title {
+            font-size: 1.5rem;
+            font-family: 'Urbanist Semibold';
+            color: var(--absolute-white);
+            margin-top: 23px;
+          }
+        }
+
+        .mangement-bottom {
+          font-family: 'Urbanist Medium';
+          font-size: 1.125rem;
+          color: var(--grey-60);
+        }
+      }
+
+      .mangement-pan {
+        width: 66%;
+        background-image: url(public/images/bg-value-link.png);
+        .mangement-top{
+          margin-bottom: 39px;
+          display: flex;
+          justify-content: space-between;
+          .title{
+            font-size: 1.875rem;
+            font-family: 'Urbanist Bold';
+            color: var(--absolute-white);
+          }
+          .mangement-link{
+            padding: 18px 24px;
+            background-color: var(--grey-08);
+            border: 1px solid var(--grey-15);
+            border-radius: 10px;
+            &:hover {
+              border: 1px solid var(--purple-60);
+            }
+            a{
+              color: var(--absolute-white);
+            }
+          }
+        }
+        .mangement-bottom{
+          font-family: 'Urbanist Medium';
+          font-size: 1.125rem; 
+          color: var(--grey-60);
+        }
+      }
+    }
+  }
+}
+//investmens
+
+#investments{
+  .container{
+    display: flex;
+    .investmens-lb{
+      margin-right: 60px;
+      width: 30%;
+      h2 {
+        font-size: 3rem;
+        font-family: 'Urbanist Semibold';
+        color: var(--absolute-white);
+        margin-bottom: 14px;
+      }
+      .subtitle {
+        font-family: 'Urbanist Medium';
+        font-size: 1.125rem;
+        color: var(--grey-60);
+        width: 78%;
+        margin-bottom: 50px;
+      }
+      .potential{
+        background-image: url(public/images/bg-investmens.png);
+        border: 1px solid var(--grey-15);
+        border-radius: 12px;
+        padding: 50px;
+        .title{
+          font-size: 1.5rem;
+          font-family: 'Urbanist Semibold';
+          color: var(--absolute-white);
+          margin-bottom: 30px;
+        }
+        .text{
+          font-family: 'Urbanist Medium';
+          font-size: 1.125rem;
+          color: var(--grey-60);
+          margin-bottom: 30px;
+        }
+        a{
+          border: 1px solid var(--grey-15);
+          background-color: var(--grey-10);
+          padding: 18px 30%;
+          width: 100%;
+          border-radius: 10px;
+          &:hover{
+            border: 1px solid var(--purple-60);
+            background-color: var(--purple-60);
+            color: var(--absolute-white);
+          }
+        }
+      }
+    }
+    .investmens-block{
+      width: 70%;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      background-color: var(--grey-15);
+      padding: 10px;
+      border-radius: 10px;
+      gap: 10px;
+      justify-content: space-between;
+      .investmens-item{
+        width: 49.5%;
+        border: 1px solid var(--grey-15);
+        background-color: var(--grey-08);
+        border-radius: 12px;
+        padding: 50px;
+        .investmens-top{
+          display: flex;
+          align-content: center;
+          margin-bottom: 30px;
+          
+          img{
+            margin-right: 20px;
+          }
+          .investmens-title{
+            font-size: 1.5rem;
+          font-family: 'Urbanist Semibold';
+          color: var(--absolute-white);
+          padding-top: 18px;
+          }
+        }
+        .investmens-bottom{
+          font-family: 'Urbanist Medium';
+        font-size: 1.125rem;
+        color: var(--grey-60);
+        }
+      }
+    }
+  }
+}
+
+
+//rwd
+@media screen and (max-width: 1760px) {
+  #investments .container .investmens-block .investmens-item {
+    max-width: 49%;
+    padding: 20px;
+}
+}
+@media screen and (max-width: 1677px) {
+  #heroServices {
+    padding-top: 220px;
+  }
+  #propertyValue .container .value-block,
+  #propertyManagement .container .mangement-block  {
+    gap: 20px;
+    .value-item,.value-pan{
+      padding: 30px;
+    }
+   .mangement-item .mangement-top{
+      margin-bottom: 20px;
+    }
+  }
+  #propertyManagement .container .mangement-block .mangement-item{
+    padding: 30px;
+  }
+}
+@media screen and (max-width: 1260px) {
+  #heroServices {
+    padding-top: 200px;
+  }
+  #propertyValue .container .value-block {
+    gap: 18px;
+    .value-item,.value-pan{
+      padding: 15px;
+    }
+    .value-item .value-top{
+      margin-bottom: 15px;
+    }
+    .value-item .value-top img{
+      width: 62px;
+    }
+    .value-item .value-top .value-title{
+      margin-top: 15px;
+      font-size: 1.125rem;
+    }
+    .value-item .value-bottom{
+      font-size: 1rem;
+    }
+    .value-pan .pan-top {
+      margin-bottom: 20px;
+      .title {
+        font-size: 1.2rem;
+      }
+  }
+}
+
+#propertyManagement .container .mangement-block .mangement-item{
+  width: 45%;
+}
+#propertyManagement .container .mangement-block .mangement-pan{
+  width: 92%;
+}
+#propertyValue .container .value-block .value-pan .pan-top .pan-link {
+  padding: 12px 20px;
+}
+#propertyManagement .container .mangement-block .mangement-item .mangement-top .mangement-title{
+  font-size: 1.2rem;
+}
+#propertyManagement .container .mangement-block .mangement-item .mangement-bottom{
+  font-size: 1rem;
+}
+#propertyManagement .container .mangement-block .mangement-pan{
+  pad: 20px;
+}
+
+#propertyManagement .container .mangement-block .mangement-pan{
+    padding: 20px;
+    .mangement-top {
+      .mangement-link {
+        padding: 12px 18px;
+      }
+      .title {
+      font-size: 1.4rem;
+    }}
+}
+#investments .container{
+  flex-direction: column;
+  .investmens-lb {
+    margin-right: 0px;
+    width: 95%;
+    margin-bottom: 20px;
+}
+.investmens-block {
+  width: 95%;
+}
+}
+}
+@media screen and (max-width: 1199px) {
+  #heroServices {
+    padding-top: 200px;
+    background-image: none;
+    margin-bottom: 90px;
+
+    h1 {
+      padding-left: 40px;
+    }
+
+    .hero-sub {
+      padding-left: 40px;
+    }
+  }
+
+  #propertyValue .container,
+  #propertyManagement .container,
+  #investments .container {
+    padding: 0 40px;
+  }
+}
+
+@media screen and (max-width: 1090px) {
+  #propertyValue .container .value-block{
+    justify-content: center;
+  }
+#propertyValue .container .value-block .value-item{
+  width: 48%;
+}
+#propertyValue .container .value-block .value-pan {
+  width: 98%;
+}
+#propertyManagement .container .mangement-block .mangement-pan .mangement-top {
+  flex-direction: column;
+  margin-bottom: 15px;
+  .title{
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .mangement-link{
+    margin: 0 auto;
+  }
+}
+
+}
+@media screen and (max-width: 807px) {
+  #propertyValue .container .value-block .value-pan .pan-top .title {
+    width: 50%;
+  }
+  #propertyValue .container .value-block .value-item{
+    gap: 10px;
+  }
+  #heroServices {
+    padding-top: 150px;
+    background-image: none;
+    margin-bottom: 70px;
+
+    h1 {
+      padding-left: 20px;
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    .hero-sub {
+      padding-left: 20px;
+      padding-bottom: 50px;
+    }
+  }
+
+  #propertyValue .container,
+  #propertyManagement .container,
+  #investments .container {
+    padding: 0 20px;
+  }
+
+  .value-block .value-item,
+  .value-block .value-pan,
+  .mangement-block .mangement-item,
+  .mangement-block .mangement-pan,
+  .investmens-lb,
+  .investmens-item {
+    width: 100%;
+  }
+
+  #investments .container .investmens-block {
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #investments .container .investmens-lb .subtitle {
+    width: 95%;
+  }
+  #propertyManagement .container .mangement-block .mangement-item {
+    width: 95%;
+}
+#propertyManagement .container .mangement-block .mangement-pan{
+  width: 95%;
+}
+#investments .container .investmens-block .investmens-item .investmens-top .investmens-title{
+  font-size: 1.2rem;
+}
+#investments .container .investmens-block .investmens-item{
+  min-width: 99%;
+}
+}
+@media screen and (max-width: 550px) {
+  #propertyValue .container .value-block .value-item {
+    width: 100%;
+}
+#propertyValue .container .subtitle{
+  width: 100%;
+}
+#propertyValue .container .value-block .value-pan .pan-top {
+  flex-direction: column;
+  .title{
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .pan-link{
+    text-align: center;
+  }
+}
+#investments .container .investmens-lb .potential{
+  padding: 20px 20px 30px;
+}
+}
+

@@ -1,0 +1,294 @@
+{
+  "slider1": [
+    {
+      "slide-top": {
+        "img": {
+          "src": "public/images/slide1.png",
+          "alt": "bulding"
+        }
+      },
+      "slide-mid": {
+        "h3": "Seaside Serenity Villa",
+        "p": "A stunning 4-bedroom, 3-bathroom villa in a peaceful suburban neighborhood...",
+        "a": {
+          "href": "#",
+          "text": "Read More."
+        },
+        "ul": {
+          "li1": {
+            "img": {
+              "src": "public/images/bad.png",
+              "alt": "bad"
+            },
+            "text": "4-Bedroom"
+          },
+          "li2": {
+            "img": {
+              "src": "public/images/beath.png",
+              "alt": "beath"
+            },
+            "text": "3-Bathroom"
+          },
+          "li3": {
+            "img": {
+              "src": "public/images/willa.png",
+              "alt": "willa"
+            },
+            "text": "Villa"
+          }
+        },
+        "full-details": {
+          "img": {
+            "src": "public/images/slide1.png",
+            "alt": "Seaside Villa"
+          },
+          "text": "A stunning 4-bedroom, 3-bathroom villa in a peaceful suburban neighborhood with breathtaking views of the ocean. This spacious villa features a modern design with luxurious amenities, including a private swimming pool, spacious outdoor terrace, and beautifully landscaped garden."
+        }
+      },
+      "slide-bottom": {
+        "Price": {
+          "div": {
+            "class": "price",
+            "text": "$550.000"
+          }
+        },
+        "a": {
+          "href": "#",
+          "text": "View Property Details"
+        }
+      }
+    },
+    {
+      "slide-top": {
+        "img": {
+          "src": "public/images/slide2.png",
+          "alt": "bulding"
+        }
+      },
+      "slide-mid": {
+        "h3": "Metropolitan Haven",
+        "p": "A chic and fully-furnished 2-bedroom apartment with panoramic city views...",
+        "a": {
+          "href": "#",
+          "text": "Read More."
+        },
+        "ul": {
+          "li1": {
+            "img": {
+              "src": "public/images/bad.png",
+              "alt": "bad"
+            },
+            "text": "2-Bedroom"
+          },
+          "li2": {
+            "img": {
+              "src": "public/images/beath.png",
+              "alt": "beath"
+            },
+            "text": "2-Bathroom"
+          },
+          "li3": {
+            "img": {
+              "src": "public/images/willa.png",
+              "alt": "willa"
+            },
+            "text": "Villa"
+          }
+        },
+        "full-details": {
+          "img": {
+            "src": "public/images/slide2.png",
+            "alt": "Metropolitan Haven"
+          },
+          "text": "A chic and fully-furnished 2-bedroom apartment with panoramic city views. This elegant apartment offers a spacious living area, gourmet kitchen, and modern amenities, making it the perfect urban retreat."
+        }
+      },
+      "slide-bottom": {
+        "Price": {
+          "div": {
+            "class": "price",
+            "text": "$350.000"
+          }
+        },
+        "a": {
+          "href": "#",
+          "text": "View Property Details"
+        }
+      }
+    },
+    {
+      "slide-top": {
+        "img": {
+          "src": "public/images/slide3.png",
+          "alt": "bulding"
+        }
+      },
+      "slide-mid": {
+        "h3": "Seaside Serenity Villa",
+        "p": "A stunning 4-bedroom, 3-bathroom villa in a peaceful suburban neighborhood...",
+        "a": {
+          "href": "#",
+          "text": "Read More."
+        },
+        "ul": {
+          "li1": {
+            "img": {
+              "src": "public/images/bad.png",
+              "alt": "bad"
+            },
+            "text": "3-Bedroom"
+          },
+          "li2": {
+            "img": {
+              "src": "public/images/beath.png",
+              "alt": "beath"
+            },
+            "text": "3-Bathroom"
+          },
+          "li3": {
+            "img": {
+              "src": "public/images/willa.png",
+              "alt": "willa"
+            },
+            "text": "Villa"
+          }
+        },
+        "full-details": {
+          "img": {
+            "src": "public/images/slide3.png",
+            "alt": "Seaside Villa"
+          },
+          "text": "A stunning 4-bedroom, 3-bathroom villa in a peaceful suburban neighborhood with breathtaking views of the ocean. This spacious villa features a modern design with luxurious amenities, including a private swimming pool, spacious outdoor terrace, and beautifully landscaped garden."
+        }
+      },
+      "slide-bottom": {
+        "Price": {
+          "div": {
+            "class": "price",
+            "text": "$550.000"
+          }
+        },
+        "a": {
+          "href": "#",
+          "text": "View Property Details"
+        }
+      }
+    },
+    {
+      "slide-top": {
+        "img": {
+          "src": "public/images/slide4.jpg",
+          "alt": "bulding"
+        }
+      },
+      "slide-mid": {
+        "h3": "Seaside Serenity Villa",
+        "p": "A stunning 4-bedroom, 3-bathroom villa in a peaceful suburban neighborhood...",
+        "a": {
+          "href": "#",
+          "text": "Read More."
+        },
+        "ul": {
+          "li1": {
+            "img": {
+              "src": "public/images/bad.png",
+              "alt": "bad"
+            },
+            "text": "3-Bedroom"
+          },
+          "li2": {
+            "img": {
+              "src": "public/images/beath.png",
+              "alt": "beath"
+            },
+            "text": "3-Bathroom"
+          },
+          "li3": {
+            "img": {
+              "src": "public/images/willa.png",
+              "alt": "willa"
+            },
+            "text": "Villa"
+          }
+        },
+        "full-details": {
+          "img": {
+            "src": "public/images/slide4.jpg",
+            "alt": "Seaside Villa"
+          },
+          "text": "A stunning 4-bedroom, 3-bathroom villa in a peaceful suburban neighborhood with breathtaking views of the ocean. This spacious villa features a modern design with luxurious amenities, including a private swimming pool, spacious outdoor terrace, and beautifully landscaped garden."
+        }
+      },
+      "slide-bottom": {
+        "Price": {
+          "div": {
+            "class": "price",
+            "text": "$550.000"
+          }
+        },
+        "a": {
+          "href": "#",
+          "text": "View Property Details"
+        }
+      }
+    },
+    {
+      "slide-top": {
+        "img": {
+          "src": "public/images/slide5.jpg",
+          "alt": "bulding"
+        }
+      },
+      "slide-mid": {
+        "h3": "Seaside Serenity Villa",
+        "p": "A stunning 4-bedroom, 3-bathroom villa in a peaceful suburban neighborhood...",
+        "a": {
+          "href": "#",
+          "text": "Read More."
+        },
+        "ul": {
+          "li1": {
+            "img": {
+              "src": "public/images/bad.png",
+              "alt": "bad"
+            },
+            "text": "3-Bedroom"
+          },
+          "li2": {
+            "img": {
+              "src": "public/images/beath.png",
+              "alt": "beath"
+            },
+            "text": "3-Bathroom"
+          },
+          "li3": {
+            "img": {
+              "src": "public/images/willa.png",
+              "alt": "willa"
+            },
+            "text": "Villa"
+          }
+        },
+        "full-details": {
+          "img": {
+            "src": "public/images/slide5.jpg",
+            "alt": "Seaside Villa"
+          },
+          "text": "A stunning 4-bedroom, 3-bathroom villa in a peaceful suburban neighborhood with breathtaking views of the ocean. This spacious villa features a modern design with luxurious amenities, including a private swimming pool, spacious outdoor terrace, and beautifully landscaped garden."
+        }
+      },
+      "slide-bottom": {
+        "Price": {
+          "div": {
+            "class": "price",
+            "text": "$550.000"
+          }
+        },
+        "a": {
+          "href": "#",
+          "text": "View Property Details"
+        }
+      }
+    }
+  ]
+}
