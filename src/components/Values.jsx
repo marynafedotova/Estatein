@@ -7,7 +7,7 @@ export default function Values() {
       <div className="container">
         <div className="lb-values">
           <div className="star">
-            <img src="public/images/star.png" alt="star icon" />
+            <img src="./images/star.png" alt="star icon" />
           </div>
           <h2>Our Values</h2>
           <div className="subtitle-block">

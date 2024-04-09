@@ -61,7 +61,7 @@ export default function Form() {
           onChange={(e) => setEmail(e.target.value)}
           className={error ? 'error' : ''}
         />
-        <button type="submit" className='form-submit'><img src="public/images/massege-icon.png" alt="icon submit" /></button>
+        <button type="submit" className='form-submit'><img src="./images/massege-icon.png" alt="icon submit" /></button>
       </form>
     </>
   );

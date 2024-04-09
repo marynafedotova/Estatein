@@ -1,14 +1,22 @@
+/*
+* Prefixed by:
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 //services-page
 
 #heroServices {
   padding-top: 250px;
+  background-image: -o-linear-gradient(338deg, #262626 0, #26262600 53%);
   background-image: linear-gradient(112deg, #262626 0, #26262600 53%);
   margin-bottom: 110px;
 
   h1 {
     padding-left: 162px;
     font-size: 3rem;
-    font-family: 'Urbanist Semibold';
+    font-family: 'Urbanist-Semibold';
     color: var(--absolute-white);
     margin-bottom: 14px;
   }
@@ -16,7 +24,7 @@
   .hero-sub {
     padding-left: 162px;
     color: var(--grey-60);
-    font-family: 'Urbanist Medium';
+    font-family: 'Urbanist-Medium';
     font-size: 1.125rem;
     padding-bottom: 100px;
     width: 80%;
@@ -28,13 +36,13 @@
     margin-bottom: 110px;
     h2 {
       font-size: 3rem;
-      font-family: 'Urbanist Semibold';
+      font-family: 'Urbanist-Semibold';
       color: var(--absolute-white);
       margin-bottom: 14px;
     }
 
     .subtitle {
-      font-family: 'Urbanist Medium';
+      font-family: 'Urbanist-Medium';
       font-size: 1.125rem;
       color: var(--grey-60);
       width: 78%;
@@ -42,9 +50,15 @@
     }
 
     .value-block {
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
       gap: 30px;
 
       .value-item,
@@ -55,8 +69,11 @@
         border: 1px solid var(--grey-15);
 
         .value-top {
+          display: -webkit-box;
+          display: -ms-flexbox;
           display: flex;
-          align-content: center;
+          -ms-flex-line-pack: center;
+              align-content: center;
           margin-bottom: 30px;
 
           img {
@@ -65,14 +82,14 @@
 
           .value-title {
             font-size: 1.5rem;
-            font-family: 'Urbanist Semibold';
+            font-family: 'Urbanist-Semibold';
             color: var(--absolute-white);
             margin-top: 23px;
           }
         }
 
         .value-bottom {
-          font-family: 'Urbanist Medium';
+          font-family: 'Urbanist-Medium';
           font-size: 1.125rem;
           color: var(--grey-60);
         }
@@ -80,14 +97,18 @@
 
       .value-pan {
         width: 66%;
-        background-image: url(public/images/bg-value-link.png);
+        background-image: url("../images/bg-value-link.png");
         .pan-top{
           margin-bottom: 39px;
+          display: -webkit-box;
+          display: -ms-flexbox;
           display: flex;
-          justify-content: space-between;
+          -webkit-box-pack: justify;
+              -ms-flex-pack: justify;
+                  justify-content: space-between;
           .title{
             font-size: 1.875rem;
-            font-family: 'Urbanist Bold';
+            font-family: 'Urbanist-Bold';
             color: var(--absolute-white);
           }
           .pan-link{
@@ -104,7 +125,7 @@
           }
         }
         .pan-bottom{
-          font-family: 'Urbanist Medium';
+          font-family: 'Urbanist-Medium';
           font-size: 1.125rem;
           color: var(--grey-60);
         }
@@ -117,13 +138,13 @@
   .container {
     h2 {
       font-size: 3rem;
-      font-family: 'Urbanist Semibold';
+      font-family: 'Urbanist-Semibold';
       color: var(--absolute-white);
       margin-bottom: 14px;
     }
 
     .subtitle {
-      font-family: 'Urbanist Medium';
+      font-family: 'Urbanist-Medium';
       font-size: 1.125rem;
       color: var(--grey-60);
       width: 100%;
@@ -131,9 +152,15 @@
     }
 
     .mangement-block {
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
       gap: 30px;
       margin-bottom: 110px;
       .mangement-item,
@@ -144,8 +171,11 @@
         border: 1px solid var(--grey-15);
 
         .mangement-top {
+          display: -webkit-box;
+          display: -ms-flexbox;
           display: flex;
-          align-content: center;
+          -ms-flex-line-pack: center;
+              align-content: center;
           margin-bottom: 30px;
 
           img {
@@ -154,14 +184,14 @@
 
           .mangement-title {
             font-size: 1.5rem;
-            font-family: 'Urbanist Semibold';
+            font-family: 'Urbanist-Semibold';
             color: var(--absolute-white);
             margin-top: 23px;
           }
         }
 
         .mangement-bottom {
-          font-family: 'Urbanist Medium';
+          font-family: 'Urbanist-Medium';
           font-size: 1.125rem;
           color: var(--grey-60);
         }
@@ -169,14 +199,18 @@
 
       .mangement-pan {
         width: 66%;
-        background-image: url(public/images/bg-value-link.png);
+        background-image: url("./images/bg-value-link.png");
         .mangement-top{
           margin-bottom: 39px;
+          display: -webkit-box;
+          display: -ms-flexbox;
           display: flex;
-          justify-content: space-between;
+          -webkit-box-pack: justify;
+              -ms-flex-pack: justify;
+                  justify-content: space-between;
           .title{
             font-size: 1.875rem;
-            font-family: 'Urbanist Bold';
+            font-family: 'Urbanist-Bold';
             color: var(--absolute-white);
           }
           .mangement-link{
@@ -193,7 +227,7 @@
           }
         }
         .mangement-bottom{
-          font-family: 'Urbanist Medium';
+          font-family: 'Urbanist-Medium';
           font-size: 1.125rem; 
           color: var(--grey-60);
         }
@@ -205,36 +239,38 @@
 
 #investments{
   .container{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     .investmens-lb{
       margin-right: 60px;
       width: 30%;
       h2 {
         font-size: 3rem;
-        font-family: 'Urbanist Semibold';
+        font-family: 'Urbanist-Semibold';
         color: var(--absolute-white);
         margin-bottom: 14px;
       }
       .subtitle {
-        font-family: 'Urbanist Medium';
+        font-family: 'Urbanist-Medium';
         font-size: 1.125rem;
         color: var(--grey-60);
         width: 78%;
         margin-bottom: 50px;
       }
       .potential{
-        background-image: url(public/images/bg-investmens.png);
+        background-image: url("./images/bg-investmens.png");
         border: 1px solid var(--grey-15);
         border-radius: 12px;
         padding: 50px;
         .title{
           font-size: 1.5rem;
-          font-family: 'Urbanist Semibold';
+          font-family: 'Urbanist-Semibold';
           color: var(--absolute-white);
           margin-bottom: 30px;
         }
         .text{
-          font-family: 'Urbanist Medium';
+          font-family: 'Urbanist-Medium';
           font-size: 1.125rem;
           color: var(--grey-60);
           margin-bottom: 30px;
@@ -242,6 +278,7 @@
         a{
           border: 1px solid var(--grey-15);
           background-color: var(--grey-10);
+          color: var(--absolute-white);
           padding: 18px 30%;
           width: 100%;
           border-radius: 10px;
@@ -255,14 +292,22 @@
     }
     .investmens-block{
       width: 70%;
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
-      flex-wrap: wrap;
-      flex-direction: row;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
       background-color: var(--grey-15);
       padding: 10px;
       border-radius: 10px;
       gap: 10px;
-      justify-content: space-between;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
       .investmens-item{
         width: 49.5%;
         border: 1px solid var(--grey-15);
@@ -270,8 +315,11 @@
         border-radius: 12px;
         padding: 50px;
         .investmens-top{
+          display: -webkit-box;
+          display: -ms-flexbox;
           display: flex;
-          align-content: center;
+          -ms-flex-line-pack: center;
+              align-content: center;
           margin-bottom: 30px;
           
           img{
@@ -279,13 +327,13 @@
           }
           .investmens-title{
             font-size: 1.5rem;
-          font-family: 'Urbanist Semibold';
+          font-family: 'Urbanist-Semibold';
           color: var(--absolute-white);
           padding-top: 18px;
           }
         }
         .investmens-bottom{
-          font-family: 'Urbanist Medium';
+          font-family: 'Urbanist-Medium';
         font-size: 1.125rem;
         color: var(--grey-60);
         }
@@ -380,7 +428,10 @@
     }}
 }
 #investments .container{
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   .investmens-lb {
     margin-right: 0px;
     width: 95%;
@@ -415,7 +466,9 @@
 
 @media screen and (max-width: 1090px) {
   #propertyValue .container .value-block{
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 #propertyValue .container .value-block .value-item{
   width: 48%;
@@ -424,7 +477,10 @@
   width: 98%;
 }
 #propertyManagement .container .mangement-block .mangement-pan .mangement-top {
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   margin-bottom: 15px;
   .title{
     font-size: 1.3rem;
@@ -478,8 +534,13 @@
 
   #investments .container .investmens-block {
     width: 100%;
-    flex-direction: column;
-    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   #investments .container .investmens-lb .subtitle {
     width: 95%;
@@ -505,7 +566,10 @@
   width: 100%;
 }
 #propertyValue .container .value-block .value-pan .pan-top {
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   .title{
     width: 100%;
     margin-bottom: 20px;
@@ -518,4 +582,3 @@
   padding: 20px 20px 30px;
 }
 }
-

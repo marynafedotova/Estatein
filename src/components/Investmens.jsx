@@ -7,7 +7,7 @@ export default function Investmens() {
     <section id="investments">
       <div className="container">
         <div className="investmens-lb">
-          <div className="star"><img src="public/images/star.png" alt="star icon" /></div>
+          <div className="star"><img src="./images/star.png" alt="star icon" /></div>
           <h2>Smart Investments, Informed Decisions</h2>
           <div className="subtitle">Building a real estate portfolio requires a strategic approach. Estatein's Investment Advisory Service empowers you to make smart investments and informed decisions.</div>
           <div className="potential">

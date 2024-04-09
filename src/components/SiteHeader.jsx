@@ -15,7 +15,7 @@ export default function SiteHeader() {
         <div className="panel-top">
           <div className="logo">
             <a href="/">
-              <img src="public/images/Logo.png" alt="logo" />
+              <img src="./images/Logo.png" alt="logo" />
             </a>
           </div>
           <div className="hamburger-wrap">
@@ -42,7 +42,7 @@ export default function SiteHeader() {
             <div className="container">
             <div className='logo'>
               <a href="/">
-              <img src="public/images/Logo.png" alt="logo" />
+              <img src="./images/Logo.png" alt="logo" />
               </a>
             </div>
             <nav>

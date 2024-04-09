@@ -1,22 +1,19 @@
-import React, { Suspense } from 'react';
+import React from 'react';
 import Journey from '../components/Journey.jsx'
-
-const LazyValues = React.lazy(() => import('../components/Values'));
-const LazyAchievements = React.lazy(() => import('../components/Achiviements.jsx'));
-const LazyNavigating = React.lazy(() => import('../components/Navigating'));
-const LazyTeam = React.lazy(() => import('../components/Team'));
-const LazyValuedClients = React.lazy(() => import('../components/ValuedClients'));
+import Values from '../components/Values';
+import Achievements from '../components/Achiviements.jsx';
+import Navigating from '../components/Navigating';
+import Team from '../components/Team';
+import ValuedClients from '../components/ValuedClients';
 
 export default function AboutUsPage() {
   return (<>
-     <Journey />
-      <Suspense fallback={<div>Loading...</div>}>
-      <LazyValues />
-      <LazyAchievements />
-      <LazyNavigating />
-      <LazyTeam />
-      <LazyValuedClients />
-    </Suspense>
+     <Journey /> 
+     <Values />
+     <Achievements />
+     <Navigating />
+     <Team />
+     <ValuedClients />
 </>
   );
 }

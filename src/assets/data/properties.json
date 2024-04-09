@@ -3,7 +3,7 @@
     {
       "slide-top": {
         "img": {
-          "src": "public/images/slide1.png",
+          "src": "./images/slide1.png",
           "alt": "bulding"
         }
       },
@@ -17,21 +17,21 @@
         "ul": {
           "li1": {
             "img": {
-              "src": "public/images/bad.png",
+              "src": "./images/bad.png",
               "alt": "bad"
             },
             "text": "4-Bedroom"
           },
           "li2": {
             "img": {
-              "src": "public/images/beath.png",
+              "src": "./images/beath.png",
               "alt": "beath"
             },
             "text": "3-Bathroom"
           },
           "li3": {
             "img": {
-              "src": "public/images/willa.png",
+              "src": "./images/willa.png",
               "alt": "willa"
             },
             "text": "Villa"
@@ -39,7 +39,7 @@
         },
         "full-details": {
           "img": {
-            "src": "public/images/slide1.png",
+            "src": "./images/slide1.png",
             "alt": "Seaside Villa"
           },
           "text": "A stunning 4-bedroom, 3-bathroom villa in a peaceful suburban neighborhood with breathtaking views of the ocean. This spacious villa features a modern design with luxurious amenities, including a private swimming pool, spacious outdoor terrace, and beautifully landscaped garden."
@@ -61,7 +61,7 @@
     {
       "slide-top": {
         "img": {
-          "src": "public/images/slide2.png",
+          "src": "./images/slide2.png",
           "alt": "bulding"
         }
       },
@@ -75,21 +75,21 @@
         "ul": {
           "li1": {
             "img": {
-              "src": "public/images/bad.png",
+              "src": "./images/bad.png",
               "alt": "bad"
             },
             "text": "2-Bedroom"
           },
           "li2": {
             "img": {
-              "src": "public/images/beath.png",
+              "src": "./images/beath.png",
               "alt": "beath"
             },
             "text": "2-Bathroom"
           },
           "li3": {
             "img": {
-              "src": "public/images/willa.png",
+              "src": "./images/willa.png",
               "alt": "willa"
             },
             "text": "Villa"
@@ -97,7 +97,7 @@
         },
         "full-details": {
           "img": {
-            "src": "public/images/slide2.png",
+            "src": "./images/slide2.png",
             "alt": "Metropolitan Haven"
           },
           "text": "A chic and fully-furnished 2-bedroom apartment with panoramic city views. This elegant apartment offers a spacious living area, gourmet kitchen, and modern amenities, making it the perfect urban retreat."
@@ -119,7 +119,7 @@
     {
       "slide-top": {
         "img": {
-          "src": "public/images/slide3.png",
+          "src": "./images/slide3.png",
           "alt": "bulding"
         }
       },
@@ -133,21 +133,21 @@
         "ul": {
           "li1": {
             "img": {
-              "src": "public/images/bad.png",
+              "src": "./images/bad.png",
               "alt": "bad"
             },
             "text": "3-Bedroom"
           },
           "li2": {
             "img": {
-              "src": "public/images/beath.png",
+              "src": "./images/beath.png",
               "alt": "beath"
             },
             "text": "3-Bathroom"
           },
           "li3": {
             "img": {
-              "src": "public/images/willa.png",
+              "src": "./images/willa.png",
               "alt": "willa"
             },
             "text": "Villa"
@@ -155,7 +155,7 @@
         },
         "full-details": {
           "img": {
-            "src": "public/images/slide3.png",
+            "src": "./images/slide3.png",
             "alt": "Seaside Villa"
           },
           "text": "A stunning 4-bedroom, 3-bathroom villa in a peaceful suburban neighborhood with breathtaking views of the ocean. This spacious villa features a modern design with luxurious amenities, including a private swimming pool, spacious outdoor terrace, and beautifully landscaped garden."
@@ -177,7 +177,7 @@
     {
       "slide-top": {
         "img": {
-          "src": "public/images/slide4.jpg",
+          "src": "./images/slide4.jpg",
           "alt": "bulding"
         }
       },
@@ -191,21 +191,21 @@
         "ul": {
           "li1": {
             "img": {
-              "src": "public/images/bad.png",
+              "src": "./images/bad.png",
               "alt": "bad"
             },
             "text": "3-Bedroom"
           },
           "li2": {
             "img": {
-              "src": "public/images/beath.png",
+              "src": "./images/beath.png",
               "alt": "beath"
             },
             "text": "3-Bathroom"
           },
           "li3": {
             "img": {
-              "src": "public/images/willa.png",
+              "src": "./images/willa.png",
               "alt": "willa"
             },
             "text": "Villa"
@@ -213,7 +213,7 @@
         },
         "full-details": {
           "img": {
-            "src": "public/images/slide4.jpg",
+            "src": "./images/slide4.jpg",
             "alt": "Seaside Villa"
           },
           "text": "A stunning 4-bedroom, 3-bathroom villa in a peaceful suburban neighborhood with breathtaking views of the ocean. This spacious villa features a modern design with luxurious amenities, including a private swimming pool, spacious outdoor terrace, and beautifully landscaped garden."
@@ -235,7 +235,7 @@
     {
       "slide-top": {
         "img": {
-          "src": "public/images/slide5.jpg",
+          "src": "./images/slide5.jpg",
           "alt": "bulding"
         }
       },
@@ -249,21 +249,21 @@
         "ul": {
           "li1": {
             "img": {
-              "src": "public/images/bad.png",
+              "src": "./images/bad.png",
               "alt": "bad"
             },
             "text": "3-Bedroom"
           },
           "li2": {
             "img": {
-              "src": "public/images/beath.png",
+              "src": "./images/beath.png",
               "alt": "beath"
             },
             "text": "3-Bathroom"
           },
           "li3": {
             "img": {
-              "src": "public/images/willa.png",
+              "src": "./images/willa.png",
               "alt": "willa"
             },
             "text": "Villa"
@@ -271,7 +271,7 @@
         },
         "full-details": {
           "img": {
-            "src": "public/images/slide5.jpg",
+            "src": "./images/slide5.jpg",
             "alt": "Seaside Villa"
           },
           "text": "A stunning 4-bedroom, 3-bathroom villa in a peaceful suburban neighborhood with breathtaking views of the ocean. This spacious villa features a modern design with luxurious amenities, including a private swimming pool, spacious outdoor terrace, and beautifully landscaped garden."

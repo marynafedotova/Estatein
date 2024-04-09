@@ -6,7 +6,7 @@ export default function Achievements() {
     <section id="achievements">
       <div className="container">
         <div className="star">
-          <img src="public/images/star.png" alt="star icon" />
+          <img src="./images/star.png" alt="star icon" />
         </div>
         <h2>Our Achievements</h2>
         <div className="subtitle">

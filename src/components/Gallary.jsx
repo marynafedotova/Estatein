@@ -19,23 +19,23 @@ return (
             closeOnTap={true}
             thumbnail={true}
         >
-            <a href="public/images/office1.png" className='lb-100' >
-                <img alt="office" src="public/images/office1.png" />
+            <a href="./images/office1.png" className='lb-100' >
+                <img alt="office" src="./images/office1.png" />
             </a>
-            <a href="public/images/office2.png" className='lb-100'>
-                <img alt="team" src="public/images/office2.png" />
+            <a href="./images/office2.png" className='lb-100'>
+                <img alt="team" src="./images/office2.png" />
             </a>
-            <a href="public/images/office3.png" className='lb-100'>
-                <img alt="team" src="public/images/office3.png" />
+            <a href="./images/office3.png" className='lb-100'>
+                <img alt="team" src="./images/office3.png" />
             </a>
-            <a href="public/images/office4.png" className='lb-50'>
-                <img alt="team" src="public/images/office4.png" />
+            <a href="./images/office4.png" className='lb-50'>
+                <img alt="team" src="./images/office4.png" />
             </a>
-            <a href="public/images/office5.png" className='lb-50'>
-                <img alt="team" src="public/images/office5.png" />
+            <a href="./images/office5.png" className='lb-50'>
+                <img alt="team" src="./images/office5.png" />
             </a>
-            <a href="public/images/office6.png" className='lb-100 last'>
-                <img alt="meeting" src="public/images/office6.png" />
+            <a href="./images/office6.png" className='lb-100 last'>
+                <img alt="meeting" src="./images/office6.png" />
             </a>
         </LightGallery>
     </div>

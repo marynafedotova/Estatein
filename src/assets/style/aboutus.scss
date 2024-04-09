@@ -1,29 +1,47 @@
+/*
+* Prefixed by:
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 
 //journey
 #journey {
   padding-bottom: 150px;
-width: 100vw;
+
   .container {
     width: min(90%, 1596px);
     padding-top: 160px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     gap: 40px;
     .lb-journey {
-      width: 55%;
+      width: 50%;
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
-      flex-direction: column;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
 
       .num-bl {
         margin-bottom: 68px;
 
         ul li {
+          display: -webkit-inline-box;
+          display: -ms-inline-flexbox;
           display: inline-flex;
-          flex-wrap: wrap;
+          -ms-flex-wrap: wrap;
+              flex-wrap: wrap;
           padding: 16px 24px;
           position: relative;
           max-width: 239px;
           border: 1px solid var(--grey-15);
-          box-sizing: border-box;
+          -webkit-box-sizing: border-box;
+                  box-sizing: border-box;
           border-radius: 12px;
           background-color: var(--grey-10);
           text-align: left;
@@ -33,7 +51,7 @@ width: 100vw;
             color: var(--absolute-white);
             font-size: 2.5rem;
             text-align: left;
-            font-family: 'Urbanist Bold';
+            font-family: 'Urbanist-Bold';
             line-height: 60px;
             margin-bottom: 0;
             letter-spacing: 0;
@@ -43,7 +61,7 @@ width: 100vw;
             color: var(--grey-60);
             font-size: 1.125rem;
             text-align: left;
-            font-family: 'Urbanist Medium';
+            font-family: 'Urbanist-Medium';
             line-height: 27px;
             letter-spacing: 0;
           }
@@ -53,17 +71,15 @@ width: 100vw;
 
     .rb-journey {
       width: 49%;
-      img {
-        width: 700px;
-        height: 540px;
-      }
-    }
+   }
   }
 }
 
 //values
 #values {
   .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding-bottom: 110px;
 
@@ -90,30 +106,45 @@ width: 100vw;
       }
 
       ul {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
         gap: 30px;
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         .right-border {
           border-right: 2px solid var(--grey-15);
         }
 
         li {
+          display: -webkit-box;
+          display: -ms-flexbox;
           display: flex;
-          flex-direction: column;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+              -ms-flex-direction: column;
+                  flex-direction: column;
           width: 48%;
           margin-bottom: 30px;
           padding-right: 30px;
 
           .values-top {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
             margin-bottom: 20px;
 
             h4 {
               margin-top: 18px;
               margin-bottom: 18px;
-              font-family: 'Urbanist Semibold';
+              font-family: 'Urbanist-Semibold';
             }
 
             img {
@@ -146,6 +177,8 @@ width: 100vw;
 
     .achievements-bl {
       ul {
+        display: -webkit-inline-box;
+        display: -ms-inline-flexbox;
         display: inline-flex;
         gap: 40px;
 
@@ -157,7 +190,7 @@ width: 100vw;
           h3 {
             margin-bottom: 30px;
             font-size: 1.875rem;
-            font-family: 'Urbanist Semibold';
+            font-family: 'Urbanist-Semibold';
           }
 
           .subtitle {
@@ -184,17 +217,22 @@ width: 100vw;
 
     .navigating-bl {
       ul {
+        display: -webkit-inline-box;
+        display: -ms-inline-flexbox;
         display: inline-flex;
-        flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
         gap: 30px;
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
         li {
           width: 32%;
 
           h3 {
             padding: 16px 20px;
             border-left: 1px solid var(--purple-60);
-            font-family: 'Urbanist Medium';
+            font-family: 'Urbanist-Medium';
             font-size: 1.25rem;
           }
 
@@ -207,19 +245,21 @@ width: 100vw;
             border-bottom-left-radius: 12px;
             border-bottom-right-radius: 12px;
             border-top: 1px solid transparent;
+            background-image: -o-linear-gradient(311deg, rgba(112, 59, 247, 0.5) 0, rgba(38, 38, 38, 0.5) 12%);
             background-image: linear-gradient(139deg, rgba(112, 59, 247, 0.5) 0, rgba(38, 38, 38, 0.5) 12%);
-            box-shadow: -1px -1px 0px rgba(112, 59, 247, 0.5);
+            -webkit-box-shadow: -1px -1px 0px rgba(112, 59, 247, 0.5);
+                    box-shadow: -1px -1px 0px rgba(112, 59, 247, 0.5);
             border-bottom: 1px solid var(--grey-60);
             border-right: 1px solid var(--grey-60);
 
             .nav-title {
               margin-bottom: 20px;
               font-size: 1.5rem;
-              font-family: 'Urbanist Semibold';
+              font-family: 'Urbanist-Semibold';
             }
 
             .nav-subtitle {
-              font-family: 'Urbanist Medium';
+              font-family: 'Urbanist-Medium';
               font-size: 1.125rem;
               color: var(--grey-60);
             }
@@ -241,10 +281,15 @@ width: 100vw;
     }
 
     .team-list ul {
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
       gap: 20px;
-      flex-wrap: wrap;
-      justify-content: center;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
       li {
         border: 1px solid var(--grey-15);
         border-radius: 12px;
@@ -259,13 +304,13 @@ width: 100vw;
 
           .name {
             font-size: 1.5rem;
-            font-family: 'Urbanist Semibold';
+            font-family: 'Urbanist-Semibold';
             margin-bottom: 6px;
           }
 
           .position {
             margin-bottom: 24px;
-            font-family: 'Urbanist Medium';
+            font-family: 'Urbanist-Medium';
             font-size: 1.125rem;
             color: var(--grey-60);
           }
@@ -295,20 +340,24 @@ width: 100vw;
             #clients {
               .client-block {
                 .client-data {
-                  font-family: 'Urbanist Medium';
+                  font-family: 'Urbanist-Medium';
                   font-size: 1.125rem;
                   color: var(--grey-60);
                   margin-bottom: 6px;
                 }
       
                 .top-block {
+                  display: -webkit-box;
+                  display: -ms-flexbox;
                   display: flex;
-                  justify-content: space-between;
+                  -webkit-box-pack: justify;
+                      -ms-flex-pack: justify;
+                          justify-content: space-between;
                   margin-bottom: 30px;
       
                   .client-title {
                     font-size: 1.875rem;
-                    font-family: 'Urbanist Semibold';
+                    font-family: 'Urbanist-Semibold';
                     color: var(--absolute-white);
                   }
       
@@ -320,21 +369,29 @@ width: 100vw;
       
                     a {
                       color: var(--absolute-white);
-                      font-family: 'Urbanist Medium';
+                      font-family: 'Urbanist-Medium';
                       font-size: 1.125rem;
                     }
                   }
                 }
       
                 .client-point {
+                  display: -webkit-box;
+                  display: -ms-flexbox;
                   display: flex;
-                  flex-direction: row;
+                  -webkit-box-orient: horizontal;
+                  -webkit-box-direction: normal;
+                      -ms-flex-direction: row;
+                          flex-direction: row;
                   margin-bottom: 30px;
       
                   .cl-top {
                     width: 50%;
+                    display: -webkit-box;
+                    display: -ms-flexbox;
                     display: flex;
-                    flex-wrap: wrap;
+                    -ms-flex-wrap: wrap;
+                        flex-wrap: wrap;
                     padding-right: 50px;
                     border-right: 1px solid var(--grey-15);
       
@@ -342,13 +399,13 @@ width: 100vw;
                       margin-right: 30px;
                       margin-bottom: 10px;
                       color: var(--grey-60);
-                      font-family: 'Urbanist Medium';
+                      font-family: 'Urbanist-Medium';
                       font-size: 1.125rem;
                     }
       
                     .client-subtitle {
                       color: var(--absolute-white);
-                      font-family: 'Urbanist Medium';
+                      font-family: 'Urbanist-Medium';
                       font-size: 1.25rem;
                     }
       
@@ -362,8 +419,11 @@ width: 100vw;
                   .client-category {
                     padding-left: 30px;
                     width: 50%;
+                    display: -webkit-box;
+                    display: -ms-flexbox;
                     display: flex;
-                    flex-wrap: wrap;
+                    -ms-flex-wrap: wrap;
+                        flex-wrap: wrap;
       
                     .cat-icon {
                       margin-right: 6px;
@@ -371,13 +431,13 @@ width: 100vw;
       
                     .name-category {
                       color: var(--grey-60);
-                      font-family: 'Urbanist Medium';
+                      font-family: 'Urbanist-Medium';
                       font-size: 1.125rem;
                     }
       
                     .sub-category {
                       color: var(--absolute-white);
-                      font-family: 'Urbanist Medium';
+                      font-family: 'Urbanist-Medium';
                       font-size: 1.25rem;
                     }
                   }
@@ -391,14 +451,14 @@ width: 100vw;
                 height: 155px;
                 .client-title {
                   color: var(--grey-60);
-                  font-family: 'Urbanist Medium';
+                  font-family: 'Urbanist-Medium';
                   font-size: 1.125rem;
                   margin-bottom: 16px;
                 }
       
                 .client-text {
                   color: var(--absolute-white);
-                  font-family: 'Urbanist Medium';
+                  font-family: 'Urbanist-Medium';
                   font-size: 1.125rem;
                 }
               }
@@ -414,19 +474,18 @@ width: 100vw;
       }
 
       .slick-prev:before {
-        content: url(public/images/arr-slider_prev.png);
+        content: url("../images/arr-slider_prev.png");
         border: 1px solid var(--grey-15);
         border-radius: 50%;
         padding: 6px;
       }
-
       .slick-next:before {
-        content: url(public/images/arr-slider_next.png);
+        content: url("../images/arr-slider_next.png");
         border: 1px solid var(--grey-15);
         border-radius: 50%;
         padding: 6px;
       }
-
+      
       .slick-arrow.slick-prev {
         margin-left: 92%;
       }
@@ -462,6 +521,11 @@ width: 100vw;
     .nav-text {
       padding: 20px;
       }
+}
+#team .container .team-list ul {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 }
   @media screen and (max-width: 1600px) {
@@ -527,7 +591,10 @@ width: 100vw;
     width: 75%;
 }
 #values .container {
-flex-direction: column;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+    -ms-flex-direction: column;
+        flex-direction: column;
 }
 #values .container .lb-values,
 #values .container .rb-values{
@@ -544,6 +611,8 @@ flex-direction: column;
 }
 #achievements .container .achievements-bl {
   ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     gap: 30px;
     li {
@@ -578,7 +647,10 @@ flex-direction: column;
 }
 #journey .container {
   padding-top: 120px;
-flex-direction: column-reverse;
+-webkit-box-orient: vertical;
+-webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+        flex-direction: column-reverse;
   gap: 50px;
   width: 90%;
 }
@@ -598,7 +670,10 @@ flex-direction: column-reverse;
 }
 @media screen and (max-width: 850px){
   #values .container .rb-values ul{
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     padding-left: 10px;
     li {
       width: 95%;
@@ -609,13 +684,19 @@ flex-direction: column-reverse;
 width: 98%;
   }
   #achievements .container .achievements-bl ul {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     li{
       width: 95%;
     }
   }
   #navigating .container .navigating-bl ul{
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     li {
       width: 98%;
       height: 100%;
@@ -657,8 +738,13 @@ width: 98%;
     height: 146px;
   }
   #journey .container .lb-journey .num-bl ul li {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin-left: auto;
     margin-right: auto;
     max-width: 230px;

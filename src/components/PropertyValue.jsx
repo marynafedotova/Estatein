@@ -7,7 +7,7 @@ export default function PropertyValue() {
     <section id="propertyValue">
       <div className="container">
         <div className="star">
-          <img src="public/images/star.png" alt="star icon" />
+          <img src="./images/star.png" alt="star icon" />
         </div>
         <h2>Unlock Property Value</h2>
         <div className="subtitle">Selling your property should be a rewarding experience, and at Estatein, we make sure it is. Our Property Selling Service is designed to maximize the value of your property, ensuring you get the best deal possible. Explore the categories below to see how we can help you at every step of your selling journey</div>

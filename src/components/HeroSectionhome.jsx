@@ -30,7 +30,7 @@ export default function HeroSectionHome() {
           </ul>
         </div>
         <div className="right-block">
-          <img src="public/images/first-screen1.png" alt="first-screen" />
+          <img src="./images/first-screen1.png" alt="first-screen" />
         </div>
       </div>
       <LinkHero />

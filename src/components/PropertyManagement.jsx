@@ -6,7 +6,7 @@ export default function PropertyManagement() {
   return (
     <section id="propertyManagement">
       <div className="container">
-        <div className="star"><img src="public/images/star.png" alt="star icon" /></div>
+        <div className="star"><img src="./images/star.png" alt="star icon" /></div>
         <h2>Effortless Property Management</h2>
         <div className="subtitle">Owning a property should be a pleasure, not a hassle. Estatein's Property Management Service takes the stress out of property ownership, offering comprehensive solutions tailored to your needs. Explore the categories below to see how we can make property management effortless for you</div>
 

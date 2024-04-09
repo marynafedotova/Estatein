@@ -6,7 +6,7 @@ export default function Team() {
     <section id="team">
       <div className="container">
         <div className="star">
-          <img src="public/images/star.png" alt="star icon" />
+          <img src="./images/star.png" alt="star icon" />
         </div>
         <h2>Meet the Estatein Team</h2>
         <div className="subtitle">

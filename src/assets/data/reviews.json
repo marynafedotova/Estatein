@@ -5,7 +5,7 @@
       "rating_title": "Exceptional Service!",
       "rating_text": "Our experience with Estatein was outstanding. Their team's dedication and professionalism made finding our dream home a breeze. Highly recommended!",
       "author": {
-        "avatar": "public/images/author1.png",
+        "avatar": "./images/author1.png",
         "name": "Wade Warren",
         "location": "USA, California"
       }
@@ -13,9 +13,9 @@
     {
       "rating": 5,
       "rating_title": "Efficient and Reliable",
-      "rating_text": "Estatein provided us with top-notch service. They helped us sell our property quickly and at a great price. We couldn't be happier with the results.",
+      "rating_text": "Estatein provided us with top-notch service. They helped us sell our property quickly and at a great price. We couldn't be happier with the results.Thank you!",
       "author": {
-        "avatar": "public/images/author2.png",
+        "avatar": "./images/author2.png",
         "name": "Emelie Thomson",
         "location": "USA, Florida"
       }
@@ -25,7 +25,7 @@
       "rating_title": "Trusted Advisors",
       "rating_text": "The Estatein team guided us through the entire buying process. Their knowledge and commitment to our needs were impressive. Thank you for your support!",
       "author": {
-        "avatar": "public/images/author3.png",
+        "avatar": "./images/author3.png",
         "name": "John Mans",
         "location": "USA, Nevada"
       }
@@ -35,7 +35,7 @@
       "rating_title": "Exceptional Service!",
       "rating_text": "Our experience with Estatein was outstanding. Their team's dedication and professionalism made finding our dream home a breeze. Highly recommended!",
       "author": {
-        "avatar": "public/images/author1.png",
+        "avatar": "./images/author1.png",
         "name": "Wade Warren",
         "location": "USA, California"
       }
@@ -43,9 +43,9 @@
     {
       "rating": 4,
       "rating_title": "Great Experience",
-      "rating_text": "We had a great experience working with Estatein. They were responsive, knowledgeable, and helped us find the perfect home. Thank you!",
+      "rating_text": "We had a great experience working with Estatein. They were responsive, knowledgeable, and helped us find the perfect home. Thank you! Highly recommended!",
       "author": {
-        "avatar": "public/images/author3.png",
+        "avatar": "./images/author2.png",
         "name": "Sophia Lee",
         "location": "USA, New York"
       }
@@ -55,7 +55,7 @@
       "rating_title": "Professional Service",
       "rating_text": "Estatein provided us with professional and efficient service throughout the selling process. We were impressed with their expertise and dedication.",
       "author": {
-        "avatar": "public/images/author2.png",
+        "avatar": "./images/author2.png",
         "name": "Michael Johnson",
         "location": "USA, Texas"
       }
@@ -63,9 +63,9 @@
     {
       "rating": 4,
       "rating_title": "Responsive Team",
-      "rating_text": "We appreciated how responsive the Estatein team was to our needs and questions. They made the buying process smooth and stress-free.",
+      "rating_text": "We appreciated how responsive the Estatein team was to our needs and questions.Thank you! They made the buying process smooth and stress-free.",
       "author": {
-        "avatar": "public/images/author1.png",
+        "avatar": "./images/author1.png",
         "name": "Emily Davis",
         "location": "USA, Arizona"
       }
@@ -73,9 +73,9 @@
     {
       "rating": 5,
       "rating_title": "Highly Recommend",
-      "rating_text": "We highly recommend Estatein to anyone looking to buy or sell property. Their professionalism and expertise are unmatched.",
+      "rating_text": "We highly recommend Estatein to anyone looking to buy or sell property. Their professionalism and expertise are unmatched.Thank you! Highly recommended!",
       "author": {
-        "avatar": "public/images/author3.png",
+        "avatar": "./images/author3.png",
         "name": "David Smith",
         "location": "USA, Washington"
       }

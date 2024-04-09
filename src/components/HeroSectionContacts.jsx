@@ -14,7 +14,7 @@ export default function HeroSectionContacts() {
           <li>
             <a href="mailto:info@estatein.com">
               <div className="link-item">
-                <img src="public/images/Icon-email.png" alt="icon email" />
+                <img src="./images/Icon-email.png" alt="icon email" />
                 <span className="link-text">info@estatein.com</span>
               </div>
             </a>
@@ -22,7 +22,7 @@ export default function HeroSectionContacts() {
           <li>
             <a href="tel:+380672244853">
               <div className="link-item">
-                <img src="public/images/Icon-telephon.png" alt="icon phone" />
+                <img src="./images/Icon-telephon.png" alt="icon phone" />
                 <span className="link-text">+3(80)67-22-44-853</span>
               </div>
             </a>
@@ -30,14 +30,14 @@ export default function HeroSectionContacts() {
           <li>
           <a href="https://maps.google.com/">
             <div className="link-item">
-              <img src="public/images/Icon-location.png" alt="icon building" />
+              <img src="./images/Icon-location.png" alt="icon building" />
                 <span className="link-text">Main Headquarters</span>
             </div>
             </a>
           </li>
           <li>
             <div className="link-item">
-              <img src="public/images/Icon-mediapng.png" alt="icon media" />
+              <img src="./images/Icon-mediapng.png" alt="icon media" />
               <div className="link-text">
                 <a href="https://www.instagram.com/">Instagram</a>
                 <a href="https://www.linkedin.com/">LinkedIn</a>

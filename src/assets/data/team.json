@@ -2,25 +2,25 @@
   {
     "name": "Max Mitchell",
     "position": "Founder",
-    "photo": "public/images/photo_max.png",
-    "twitterIcon": "public/images/Icon-tw.png"
+    "photo": "./images/photo_max.png",
+    "twitterIcon": "./images/Icon-tw.png"
   },
   {
     "name": "Sarah Johnson",
     "position": "Chief Real Estate Officer",
-    "photo": "public/images/photo_sara.png",
-    "twitterIcon": "public/images/Icon-tw.png"
+    "photo": "./images/photo_sara.png",
+    "twitterIcon": "./images/Icon-tw.png"
   },
   {
     "name": "David Brown",
     "position": "Head of Property Management",
-    "photo": "public/images/photo_david.png",
-    "twitterIcon": "public/images/Icon-tw.png"
+    "photo": "./images/photo_david.png",
+    "twitterIcon": "./images/Icon-tw.png"
   },
   {
     "name": "Michael Turner",
     "position": "Legal Counsel",
-    "photo": "public/images/photo_michael.png",
-    "twitterIcon": "public/images/Icon-tw.png"
+    "photo": "./images/photo_michael.png",
+    "twitterIcon": "./images/Icon-tw.png"
   }
 ]

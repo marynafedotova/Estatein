@@ -1,21 +1,29 @@
+/*
+* Prefixed by:
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 //hero-contacts
 
 #hero-contacts {
   margin-top: 100px;
   padding-top: 250px;
+  background-image: -o-linear-gradient(338deg, #262626 0, #26262600 53%);
   background-image: linear-gradient(112deg, #262626 0, #26262600 53%);
   margin-bottom: 110px;
 
   h1 {
     font-size: 3rem;
-    font-family: 'Urbanist Semibold';
+    font-family: 'Urbanist-Semibold';
     color: var(--absolute-white);
     margin-bottom: 14px;
   }
 
   .hero-sub {
     color: var(--grey-60);
-    font-family: 'Urbanist Medium';
+    font-family: 'Urbanist-Medium';
     font-size: 1.125rem;
     padding-bottom: 100px;
     width: 80%;
@@ -28,8 +36,12 @@
       min-width: 100%;
       background-color: var(--grey-08);
       padding: 20px;
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
-      justify-content: space-between;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between;
       border-top: 10px solid var(--grey-15);
       border-bottom: 10px solid var(--grey-15);
 
@@ -41,6 +53,8 @@
         height: 212px;
         margin-right: 20px;
         position: relative;
+        -webkit-transition: all .3s ease;
+        -o-transition: all .3s ease;
         transition: all .3s ease;
 
         a:hover {
@@ -50,7 +64,7 @@
         &::after {
           content: '';
           position: absolute;
-          background-image: url(public/images/arr-smal.png);
+          background-image: url(./images/arr-smal.png);
           width: 22px;
           height: 22px;
           left: 90%;
@@ -61,9 +75,16 @@
           margin-right: 0;
 
           .link-item {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            flex-direction: column;
-            justify-content: center;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
 
             img {
               width: 82px;
@@ -72,16 +93,22 @@
             }
 
             .link-text {
+              display: -webkit-box;
+              display: -ms-flexbox;
               display: flex;
               gap: 30px;
-              justify-content: center;
+              -webkit-box-pack: center;
+                  -ms-flex-pack: center;
+                      justify-content: center;
 
               a {
                 padding: 0;
                 margin: 0;
                 font-size: 1.25rem;
-                font-family: 'Urbanist Semibold';
+                font-family: 'Urbanist-Semibold';
                 color: var(--absolute-white);
+                -webkit-transition: all .3s ease;
+                -o-transition: all .3s ease;
                 transition: all .3s ease;
 
                 &:hover {
@@ -94,17 +121,28 @@
         }
 
         a {
+          display: -webkit-box;
+          display: -ms-flexbox;
           display: flex;
-          justify-content: center;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
           margin: 40px 0;
           position: relative;
           text-decoration: none;
           color: var(--absolute-white);
 
           .link-item {
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
-            flex-direction: column;
-            justify-content: center;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                    flex-direction: column;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
 
             img {
               width: 82px;
@@ -113,11 +151,16 @@
             }
 
             .link-text {
-              font-family: 'Urbanist Semibold';
+              font-family: 'Urbanist-Semibold';
               font-size: 1.25rem;
               color: var(--absolute-white);
+              display: -webkit-box;
+              display: -ms-flexbox;
               display: flex;
-              flex-direction: row;
+              -webkit-box-orient: horizontal;
+              -webkit-box-direction: normal;
+                  -ms-flex-direction: row;
+                      flex-direction: row;
             }
           }
         }
@@ -133,19 +176,27 @@
     border: 1px solid var(--grey-15);
     border-radius: 12px;
     padding: 100px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     gap: 50px;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
 
     .form-group {
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
-      flex-direction: column;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
       margin-bottom: 50px;
 
       width: 30%;
 
       label {
-        font-family: 'Urbanist Semibold';
+        font-family: 'Urbanist-Semibold';
         font-size: 1.25rem;
         color: var(--absolute-white);
         margin-bottom: 16px;
@@ -158,7 +209,7 @@
         border-radius: 8px;
         padding: 20px 24px;
         color: var(--grey-40);
-        font-family: 'Urbanist Medium';
+        font-family: 'Urbanist-Medium';
         font-size: 1.125rem;
 
       }
@@ -166,11 +217,19 @@
     }
 
     .form-message {
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
 
       .form-group.submit {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         width: 100%;
 
@@ -182,7 +241,7 @@
           border-radius: 8px;
           padding: 24px 20px;
           margin-bottom: 50px;
-          font-family: 'Urbanist Medium';
+          font-family: 'Urbanist-Medium';
           font-size: 1.125rem;
           color: var(--grey-40);
         }
@@ -190,7 +249,7 @@
         button#submit-form {
           padding: 18px 46px;
           background-color: var(--purple-60);
-          font-family: 'Urbanist Medium';
+          font-family: 'Urbanist-Medium';
           font-size: 1.125rem;
           color: var(--absolute-white);
           border-radius: 8px;
@@ -217,33 +276,40 @@
     margin-bottom: 110px;
 
     .location-contacts ul {
+      display: -webkit-inline-box;
+      display: -ms-inline-flexbox;
       display: inline-flex;
       gap: 30px;
 
       li {
         border-radius: 12px;
         border: 1px solid var(--grey-15);
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         width: 49, 5%;
         padding: 50px;
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
 
         .location-title {
-          font-family: 'Urbanist Medium';
+          font-family: 'Urbanist-Medium';
           font-size: 1.125rem;
           color: var(--absolute-white);
           margin-bottom: 10px;
         }
 
         .location-name {
-          font-family: 'Urbanist Semibold';
+          font-family: 'Urbanist-Semibold';
           font-size: 1.875rem;
           color: var(--absolute-white);
           margin-bottom: 16px;
         }
 
         .location-desc {
-          font-family: 'Urbanist Medium';
+          font-family: 'Urbanist-Medium';
           font-size: 1.125rem;
           color: var(--grey-60);
           margin-bottom: 40px;
@@ -290,7 +356,7 @@
               }
 
               a {
-                font-family: 'Urbanist Medium';
+                font-family: 'Urbanist-Medium';
                 font-size: 1.125rem;
                 color: var(--absolute-white);
               }
@@ -306,7 +372,7 @@
 #gallary .container {
   width: min(90%, 1596px);
   margin-bottom: 100px;
-  background-image: url(public/images/bg-gallary.png);
+  background-image: url(./images/bg-gallary.png);
   border: 1px solid var(--grey-15);
   position: relative;
   padding: 80px;
@@ -331,8 +397,11 @@
   }
   
 .gallary-block .lg-react-element {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   gap: 15px; 
 }
 
@@ -377,7 +446,9 @@
     font-size: 1.2rem;
   }
   #gallary .container .gallary-block .lg-react-element{
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   #gallary .container .gallary-block .lg-react-element a.lb-100 {
     width: 608px;
@@ -432,15 +503,20 @@
   }
 
   #hero-contacts #link-contacts ul {
-    flex-direction: row;
-    flex-wrap: wrap;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
     width: 70%;
     margin: 0 auto;
   }
 
   #hero-contacts #link-contacts ul li {
     width: 45%;
-    justify-content: space-around;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
     margin-bottom: 20px;
   }
 
@@ -450,14 +526,24 @@
 
   #location-form .container .location-contacts ul {
     gap: 30px;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
 
   }
 
   #location-form .container .location-contacts ul li .location-bl ul {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
     display: inline-flex;
-    justify-content: space-between;
-    flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
 
     li {
       width: 30%;
@@ -703,8 +789,12 @@
 
   }
   #hero-contacts #link-contacts ul li:last-child .link-item .link-text {
-   flex-direction: row;
-   flex-wrap: wrap;
+   -webkit-box-orient: horizontal;
+   -webkit-box-direction: normal;
+       -ms-flex-direction: row;
+           flex-direction: row;
+   -ms-flex-wrap: wrap;
+       flex-wrap: wrap;
 }
 #hero-contacts #link-contacts ul li {
   width: 45%;
@@ -735,7 +825,9 @@
   border-bottom: 10px solid var(--grey-15);
 }
   #gallary .container .gallary-block .lg-react-element {
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
   #gallary .container .gallary-block .lg-react-element a.lb-100.last {
     margin: 0;
@@ -761,8 +853,13 @@
 }
 @media screen and (max-width: 550px) {
   #location-form .container .location-contacts ul li .location-bl ul{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     gap: 0;
     li{
       width: 100%;

@@ -18,7 +18,7 @@ export default function SiteFooter() {
     <div className="container" id='footer-container'>
       <div className="footer-lb">
         <div className="logo">
-          <Link to="/"><img src="public/images/Logo.png" alt="logo" /></Link>
+          <Link to="/"><img src="./images/Logo.png" alt="logo" /></Link>
         </div>
         <Form />
       </div>
@@ -56,8 +56,8 @@ export default function SiteFooter() {
         <div className="footer-nav">
         <Link to="/contacts"><h4>Contact Us</h4></Link>
           <ul>
-            <li><Link to="/contacts/my-form">Contact Form</Link></li>
-            <li><Link to="/contacts/location-form" >Our Offices</Link></li>
+            <li><Link to="/contacts#my-form">Contact Form</Link></li>
+            <li><Link to="/contacts#location-form" >Our Offices</Link></li>
           </ul>
         </div>
       </div>
@@ -65,10 +65,10 @@ export default function SiteFooter() {
       <div className="social-link">
         <div className="container">
           <ul>
-            <li><a href="https://www.facebook.com/"><img src="public/images/Icon-fb.png" alt="icon facebook" /></a></li>
-            <li><a href="https://www.linkedin.com/"><img src="public/images/Icon-ld.png" alt="icon linkedin" /></a></li>
-            <li><a href="https://twitter.com/"><img src="public/images/Icon-tw.png" alt="icon twitter" /></a></li>
-            <li><a href="https://www.youtube.com/"><img src="public/images/Icon-yt.png" alt="icon youtube" /></a></li>
+            <li><a href="https://www.facebook.com/"><img src="./images/Icon-fb.png" alt="icon facebook" /></a></li>
+            <li><a href="https://www.linkedin.com/"><img src="./images/Icon-ld.png" alt="icon linkedin" /></a></li>
+            <li><a href="https://twitter.com/"><img src="./images/Icon-tw.png" alt="icon twitter" /></a></li>
+            <li><a href="https://www.youtube.com/"><img src="./images/Icon-yt.png" alt="icon youtube" /></a></li>
           </ul>
         </div>
       </div>

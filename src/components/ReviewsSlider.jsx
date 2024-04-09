@@ -53,7 +53,7 @@ export default function ReviewsSlider() {
             <div id="rating">
               <ul>
                 {Array.from({ length: slide.rating }, (_, i) => (
-                  <li key={i}><img src="public/images/star-rating.png" alt="rating" /></li>
+                  <li key={i}><img src="./images/star-rating.png" alt="rating" /></li>
                 ))}
               </ul>
               <div className='rating-item'>

@@ -5,11 +5,11 @@
     "clients_btn": "Visit Website",
     "client_points": [
       {
-        "point_image": "public/images/client-icon.png",
+        "point_image": "./images/client-icon.png",
         "point_text": "Domain",
         "subtitle": "Commercial Real Estate",
         "category": {
-          "icon": "public/images/category-icon.png",
+          "icon": "./images/category-icon.png",
           "name": "Category",
           "sub": "Luxury Home Development"
         },
@@ -24,11 +24,11 @@
     "clients_btn": "Visit Website",
     "client_points": [
       {
-        "point_image": "public/images/client-icon.png",
+        "point_image": "./images/client-icon.png",
         "point_text": "Domain",
         "subtitle": "Commercial Real Estate",
         "category": {
-          "icon": "public/images/category-icon.png",
+          "icon": "./images/category-icon.png",
           "name": "Retail Space",
           "sub": "Luxury Home Development"
         },
@@ -43,11 +43,11 @@
     "clients_btn": "Visit Website",
     "client_points": [
       {
-        "point_image": "public/images/client-icon.png",
+        "point_image": "./images/client-icon.png",
         "point_text": "Technology Services",
         "subtitle": "Commercial Real Estate",
         "category": {
-          "icon": "public/images/category-icon.png",
+          "icon": "./images/category-icon.png",
           "name": "Software Development",
           "sub": "Luxury Home Development"
         },
@@ -62,11 +62,11 @@
     "clients_btn": "Visit Website",
     "client_points": [
       {
-        "point_image": "public/images/client-icon.png",
+        "point_image": "./images/client-icon.png",
         "point_text": "Healthcare Solutions",
         "subtitle": "Commercial Real Estate",
         "category": {
-          "icon": "public/images/category-icon.png",
+          "icon": "./images/category-icon.png",
           "name": "Medical Devices",
           "sub": "Luxury Home Development"
         },

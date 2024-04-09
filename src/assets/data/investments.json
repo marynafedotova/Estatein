@@ -1,25 +1,25 @@
 {
   "investmentItems": [
     {
-      "iconSrc": "public/images/Icon-valuation.png",
+      "iconSrc": "./images/Icon-valuation.png",
       "iconAlt": "icon market insight",
       "title": "Market Insight",
       "description": "Stay ahead of market trends with our expert Market Analysis. We provide in-depth insights into real estate market conditions."
     },
     {
-      "iconSrc": "public/images/Icon-faer.png",
+      "iconSrc": "./images/Icon-faer.png",
       "iconAlt": "icon assessment",
       "title": "ROI Assessment",
       "description": "Make investment decisions with confidence. Our ROI Assessment services evaluate the potential returns on your investments."
     },
     {
-      "iconSrc": "public/images/Icon-lamp.png",
+      "iconSrc": "./images/Icon-lamp.png",
       "iconAlt": "icon strategies",
       "title": "Customized Strategies",
       "description": "Every investor is unique, and so are their goals. We develop Customized Investment Strategies tailored to your specific needs."
     },
     {
-      "iconSrc": "public/images/Icon-legal.png",
+      "iconSrc": "./images/Icon-legal.png",
       "iconAlt": "icon diversification",
       "title": "Diversification Mastery",
       "description": "Diversify your real estate portfolio effectively. Our experts guide you in spreading your investments across various property types and locations."

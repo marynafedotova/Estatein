@@ -6,7 +6,7 @@ export default function Navigating() {
     <section id="navigating">
       <div className="container">
         <div className="star">
-          <img src="public/images/star.png" alt="star icon" />
+          <img src="./images/star.png" alt="star icon" />
         </div>
         <h2>Navigating the Estatein Experience</h2>
         <div className="subtitle">

@@ -6,7 +6,7 @@ export default function Location() {
   return (
       <section id="location-form">
         <div className="container">
-          <div className="star"><img src="public/images/star.png" alt="star icon" /></div>
+          <div className="star"><img src="./images/star.png" alt="star icon" /></div>
           <h2>Discover Our Office Locations</h2>
           <div className="subtitle-block">
             <div className="subtitle">Estatein is here to serve you across multiple locations. Whether you're looking to meet our team, discuss real estate opportunities, or simply drop by for a chat, we have offices conveniently located to serve your needs. Explore the categories below to find the Estatein office nearest to you</div>
