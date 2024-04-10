@@ -2,4 +2,4 @@
 
 I used such technologies as React and Vite, SASS in the project. You can view the project at the following link:
 
-- [@Estatein](https://marynafedotova.github.io/Estatein")
+- [@Estatein](https://marynafedotova.github.io/Estatein/)
