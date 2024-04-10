@@ -8,9 +8,6 @@ export default function Reviews() {
       <h2>What Our Clients Say</h2>
       <div className="subtitle-block">
     <div className="subtitle">Read the success stories and heartfelt testimonials from our valued clients. Discover why they chose Estatein for their real estate needs.</div>
-    <div className="properties-link">
-      <Link to="/aboutus#valuedclients">View All Properties</Link>
-    </div>
     </div>
     <div id="reviews-slider">
     <ReviewsSlider />
