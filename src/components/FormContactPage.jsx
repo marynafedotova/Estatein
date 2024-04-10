@@ -6,6 +6,12 @@ import InputMask from 'react-input-mask';
 
 
 const ContactForm = () => {
+  
+  const isValidEmail = (email) => {
+    var regex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
+    return regex.test(email);
+  };
+
   const [formData, setFormData] = useState({
     firstName: '',
     lastName: '',
@@ -25,25 +31,24 @@ const ContactForm = () => {
     e.preventDefault();
   
     const { firstName, lastName, email, phone, inquiryType, referralSource, message } = formData;
-    
-
-    if (firstName.trim().length < 1 || !/^[a-zA-Z]+$/.test(firstName.trim())) {
+  
+    if (!firstName.trim() || !/^[a-zA-Z]+$/.test(firstName.trim())) {
       toast.error('Please enter a valid first name.');
       return; 
     }
-    if (lastName.trim().length < 1 || !/^[a-zA-Z]+$/.test(lastName.trim())) {
+    if (!lastName.trim() || !/^[a-zA-Z]+$/.test(lastName.trim())) {
       toast.error('Please enter a valid last name.');
       return;
     }
-    if (phone.trim().length < 10) { 
+    if (!phone.trim() || phone.replace(/[^0-9]/g, '').length < 10) { 
       toast.error('Please enter a valid phone number.');
       return;
     }
-    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    if (!emailRegex.test(email)) {
+    if (!isValidEmail(email)) {
       toast.error('Please enter a valid email address.');
       return;
     }
+  
     const messageText = `
       First Name: ${firstName}
       Last Name: ${lastName}
@@ -53,12 +58,12 @@ const ContactForm = () => {
       Referral Source: ${referralSource}
       Message: ${message}
     `;
-
+  
     try {
       const CHAT_ID = '-1002005768837'; 
       const BOT_TOKEN = '6752195686:AAEk2PgvXP44n-Tv5IJcvCZCkkHOrzeH7pQ'; 
       const url = `https://api.telegram.org/bot${BOT_TOKEN}/sendMessage?chat_id=${CHAT_ID}&text=${encodeURIComponent(messageText)}`;
-
+  
       const response = await fetch(url, { method: 'POST' });
       if (response.ok) {
         setFormData({
@@ -78,6 +83,7 @@ const ContactForm = () => {
       toast.error('There was an error while sending your message. Please try again later.');
     }
   };
+  
 
   return (
     <>
