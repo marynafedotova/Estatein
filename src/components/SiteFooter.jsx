@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Form from "./Form";
 
 export default function SiteFooter() {
   return (<footer>
@@ -20,7 +19,6 @@ export default function SiteFooter() {
         <div className="logo">
           <Link to="/"><img src="./images/Logo.png" alt="logo" /></Link>
         </div>
-        <Form />
       </div>
       <div className="footer-rb">
         <div className="footer-nav">
