@@ -28,7 +28,7 @@ export default function HeroSectionContacts() {
             </a>
           </li>
           <li>
-          <a href="https://maps.google.com/">
+          <a href="https://www.google.com/maps/place/American+Swedish+Institute/@44.9571746,-93.2712332,16.5z/data=!3m1!5s0x52b332ace2d540ef:0xbb811745e24043b0!4m15!1m8!3m7!1s0x52b333909377bbbd:0x939fc9842f7aee07!2z0JzRltC90L3QtdCw0L_QvtC70ZbRgSwg0JzRltC90L3QtdGB0L7RgtCwLCDQodC_0L7Qu9GD0YfQtdC90ZYg0KjRgtCw0YLQuCDQkNC80LXRgNC40LrQuA!3b1!8m2!3d44.977753!4d-93.2650108!16zL20vMGZwendm!3m5!1s0x52b332acf1a78641:0x4a0b0333b07e8100!8m2!3d44.9545975!4d-93.2658596!16zL20vMDcxOWdu?entry=ttu">
             <div className="link-item">
               <img src="./images/Icon-location.png" alt="icon building" />
                 <span className="link-text">Main Headquarters</span>
