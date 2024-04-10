@@ -48,7 +48,7 @@ export default function Form() {
 
   return (
     <>
-      <ToastContainer autoClose={3000} closeOnClick />
+      <ToastContainer/>
       <form onSubmit={handleSubmit} noValidate className={error ? 'error' : ''}>
         <input
           type="email"
