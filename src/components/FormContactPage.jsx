@@ -39,6 +39,11 @@ const ContactForm = () => {
       toast.error('Please enter a valid phone number.');
       return;
     }
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(email)) {
+      toast.error('Please enter a valid email address.');
+      return;
+    }
     const messageText = `
       First Name: ${firstName}
       Last Name: ${lastName}

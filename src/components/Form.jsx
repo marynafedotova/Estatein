@@ -36,6 +36,7 @@ export default function Form() {
       const resp = await fetch(url, { method: 'post' });
       if (resp.ok) {
         setEmail('');
+        setError(false); 
         toast.success('Your message successfully sent.');
       } else {
         toast.error('Some error occurred.');
@@ -43,11 +44,11 @@ export default function Form() {
     } catch (error) {
       toast.error('Error occurred while sending message.');
     }
-  };
+  } 
 
   return (
     <>
-      <ToastContainer />
+      <ToastContainer autoClose={3000} closeOnClick />
       <form onSubmit={handleSubmit} noValidate className={error ? 'error' : ''}>
         <input
           type="email"
