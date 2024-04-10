@@ -5,6 +5,8 @@ import Achievements from '../components/Achiviements.jsx';
 import Navigating from '../components/Navigating';
 import Team from '../components/Team';
 import ValuedClients from '../components/ValuedClients';
+import {ToastContainer } from 'react-toastify';
+
 
 export default function AboutUsPage() {
   return (<>
@@ -14,6 +16,7 @@ export default function AboutUsPage() {
      <Navigating />
      <Team />
      <ValuedClients />
+     <ToastContainer />
 </>
   );
 }
