@@ -36,15 +36,6 @@ export default function ReviewsSlider() {
 
   const slides = Object.values(jsonData.slider2);
 
-  const handleSlideClick = (slide) => {
-    setSelectedSlide(slide);
-    setModalOpen(true);
-  };
-
-  const handleCloseModal = () => {
-    setModalOpen(false);
-  };
-
   return (
     <div>
       <Slider {...settings}>

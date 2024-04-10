@@ -1,5 +1,4 @@
 import LinkHero from "./LinkHero";
-import Links from "./LinkHero";
 import { Link } from 'react-router-dom';
 
 export default function HeroSectionHome() {

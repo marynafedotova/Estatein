@@ -7,7 +7,7 @@ export default function ScrollToAnchor() {
 
   useEffect(() => {
     if(location.hash){
-      lastHash.current = location.hash.split('#').pop(); // safe hash for further use after navigation
+      lastHash.current = location.hash.split('#').pop();
       if (lastHash.current && document.getElementById(lastHash.current)) {
         setTimeout(() => {
           document

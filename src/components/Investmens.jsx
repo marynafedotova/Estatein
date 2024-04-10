@@ -16,7 +16,6 @@ export default function Investmens() {
             <Link to="/#properties" >Learn More</Link>
           </div>
         </div>
-
         <div className="investmens-block">
           {investmentData.investmentItems.map((item, index) => (
             <div className="investmens-item" key={index}>

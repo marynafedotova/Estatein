@@ -7,6 +7,6 @@ export default function HeroServices(){
       <div className="hero-sub">
       Welcome to Estatein, where your real estate aspirations meet expert guidance. Explore our comprehensive range of services, each designed to cater to your unique needs and dreams.
       </div>
-<LinkHero />
+    <LinkHero />
   </section>
 }
