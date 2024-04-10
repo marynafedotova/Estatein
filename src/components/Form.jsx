@@ -7,7 +7,7 @@ export default function Form() {
   const [error, setError] = useState(false);
 
   const isValidEmail = (email) => {
-    var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+    var regex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
     return regex.test(email);
   };
 
@@ -16,14 +16,12 @@ export default function Form() {
 
     if (!isValidEmail(email)) {
       setError(true);
-      console.log('Invalid email format');
       toast.error('Incorrect email format, please');
       return;
     }
 
     if (email.trim() === '') {
       setError(true);
-      console.log('Email is empty');
       toast.error('Enter your email, please');
       return;
     }
@@ -38,14 +36,11 @@ export default function Form() {
       const resp = await fetch(url, { method: 'post' });
       if (resp.ok) {
         setEmail('');
-        console.log('Message sent successfully');
         toast.success('Your message successfully sent.');
       } else {
-        console.log('Some error occurred while sending message');
         toast.error('Some error occurred.');
       }
     } catch (error) {
-      console.error('Error occurred while sending message:', error);
       toast.error('Error occurred while sending message.');
     }
   };
@@ -61,7 +56,9 @@ export default function Form() {
           onChange={(e) => setEmail(e.target.value)}
           className={error ? 'error' : ''}
         />
-        <button type="submit" className='form-submit'><img src="./images/massege-icon.png" alt="icon submit" /></button>
+        <button type="submit" className='form-submit'>
+          <img src="./images/massege-icon.png" alt="icon submit" />
+        </button>
       </form>
     </>
   );
